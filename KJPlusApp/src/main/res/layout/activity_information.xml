@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kjplusapp.activity.InformationActivity">
+    <LinearLayout
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:src="@drawable/navi_back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_title_content"
+            android:text="居民详情"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/information"/>
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_tijian"
+            style="@style/myStyle"
+            android:text="体检\n报告"/>
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_suifang"
+            style="@style/myStyle"
+            android:text="随访\n记录"/>
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_zhenliao"
+            style="@style/myStyle"
+            android:text="诊疗\n记录"/>
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_zhuanzhen"
+            style="@style/myStyle"
+            android:text="转诊\n记录"/>
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_jiankang"
+            style="@style/myStyle"
+            android:text="健康\n咨询"/>
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_celiang"
+            style="@style/myStyle"
+            android:text="测量\n记录"/>
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_qianyue"
+            style="@style/myStyle"
+            android:text="签约\n情况"/>
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_tuisong"
+            style="@style/myStyle"
+            android:text="消息\n推送"/>
+
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

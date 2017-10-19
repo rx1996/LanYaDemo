@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#358DD4"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/set_btn"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_set" />
+
+    <TextView
+        android:id="@+id/tv_title_content"
+        android:layout_weight="1"
+        android:text="家庭医生"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_title_back"
+        android:text="退出"
+        android:textSize="20sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

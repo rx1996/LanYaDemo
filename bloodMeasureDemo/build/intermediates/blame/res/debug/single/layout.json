@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_measure_result.xml",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\layout\\activity_measure_result.xml"
+    },
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth.xml",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\layout\\bluetooth.xml"
+    }
+]

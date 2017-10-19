@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_juxing.png",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\drawable-xhdpi\\icon_juxing.png"
+    },
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bluetooth_lind.png",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\drawable-xhdpi\\bluetooth_lind.png"
+    },
+    {
+        "merged": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bluetooth_connect_bg.png",
+        "source": "G:\\AndroidProject\\LanYaDemo\\bloodMeasureDemo\\src\\main\\res\\drawable-xhdpi\\bluetooth_connect_bg.png"
+    }
+]

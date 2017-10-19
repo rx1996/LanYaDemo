@@ -1,0 +1,2 @@
+include ':app', ':KJPlusApp', ':LoginTest', ':LoginTest2', ':SlidingMenu_library', ':LuYinTest', 'SmartPopupWindow'
+include ':bloodMeasureDemo'
